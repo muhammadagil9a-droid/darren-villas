@@ -56,3 +56,8 @@ Copy the example at the bottom of `projects.js`, set `status: "ongoing"`, `progr
 - [ ] Have RU / NL / PT translations checked by a native speaker (review sheets + brief in `translation-review/`).
       Re-export the sheets after adding the real quotes.
 - [ ] Get a vector logo (SVG) from the designer to replace `logo-mark.jpg`
+
+## Online preview (GitHub Pages)
+The site is online at https://muhammadagil9a-droid.github.io/darren-villas/ and works with your Mac off.
+To publish changes:  `git add -A && git commit -m "update" && git push`, then wait about 1 minute.
+It is hidden from Google for now. At launch, delete `robots.txt` and the `<meta name="robots">` line in the 3 HTML files.
